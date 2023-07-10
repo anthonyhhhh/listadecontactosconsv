@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "username": "goku mi dios",
+      "id": 3
+    },
+    {
+      "username": "sss",
+      "id": 4
+    }
+  ],
+  "todos": []
+}

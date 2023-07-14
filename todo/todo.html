@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listita</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+        <p id="Logo"></p>
+         <div id = "logout-container">
+            <p class="logout">cerrar sesión</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logout-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+              </svg>              
+         </div>    
+    <main id="main-container">
+        <h1 id="main-title">lista de contactos</h1>
+        <form id="form">
+            <div class="form-name-input">
+                <input id="name-input" placeholder="ingresa nombre y apellido" autocomplete="off">
+                <p class="info-text">los nombres debe contener entre 2 a 16 letras. <br> deben comenzar el nombre y el apellido con letra mayuscula.  <br>no usar caracteres especiales</p>
+            </div>
+            <div class="form-phone-input">
+                <input id="phone-input" placeholder= "ingresa número de telefono" autocomplete="off">
+                <p class="info-text">el número debe de venezuela, por ejemplo: 04122222222</p>
+            </div>    
+            <button class="form-btn" disabled>subir</button>
+        </form>
+        <ul id="list"> 
+        </ul>
+    </main>    
+    <script src="todo.js"></script>
+</body>
+</html>
